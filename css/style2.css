@@ -1,0 +1,157 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+ 
+  div.error { display: block; color: #f00; font-weight: bold; font-size: 1.2em; }
+  span.error { display: block; color: #f00; font-style: italic; }
+  .success { color: #00f; font-weight: bold; font-size: 1.2em; }
+  form label {
+	/* [disabled]display: block; */
+	font-weight: bold;
+}
+  fieldset { width: 90%; }
+  legend { font-size: 24px; }
+  .note { font-size: 18px;}
+  
+  
+  
+  /*  Subir imagen  */
+  
+  
+  .wrap { 
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.todas{
+	display: inline-block;
+}
+
+.todas img{
+	margin: 10px 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.campos, .campos label, .campos input{
+	
+	padding: 0px;
+	width: 100%;
+        text-align: center;
+}
+
+#formulario{
+	border-radius: 10px;
+	margin: 0 auto;
+	padding:10px 20px 10px 10px;
+	border: 1px solid;
+	overflow:hidden;
+	width: 35%;
+}
+
+.centro{
+    text-align: center;
+    font-size: 16pt;
+}
+
+#flotante {
+		float:right;
+		width: 400px;
+		border-top:150px;
+	
+	}
+	
